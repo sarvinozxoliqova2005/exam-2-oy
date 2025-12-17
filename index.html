@@ -7,34 +7,32 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="bg-[#BB2339]">
-    <header class="px-[20px] bg-[#BB2339] py-[10px]  fixed top-0 left-0 w-full z-[800]">
-        <div class="container mx-[auto]  flex items-center justify-between">
-            <a href=""><img class="max-w-[135px] w-[100%] h-[47px]" src="./images/image 2.png" alt=""></a>
-
-            <ul class=" gap-[50px] hidden md:flex">
-                <li class="text-[#ffff]">
-                    <a href="./pages/menu.html">Menu</a>
-                </li>
-
-                <li class="text-[#ffff]">
-                    <a href="./home-2.html">Home2</a>
-                </li>
-                <li class="text-[#ffff]" >
-                    <a href="./pages/news.html">News</a>
-                </li>
-                <li  class="text-[#ffff]">
-                    <a href="./pages/about.html">About Us</a>
-                </li>
-                <li  class="text-[#ffff]">
-                    <a href="./pages/contact us.html">Contact Us</a>
-                </li>
-            </ul>
-
-            <button class=" hidden md:block text-[#ffff] border border-white transition-colors max-w-[131px] w-[100%] h-[48px] bg-[#BB2339] rounded-[100px] cursor-pointer">
-                Log in</button>
-        </div>
-    </header>
-
+   
+<header class="px-[20px] bg-[#BB2339] py-[10px] fixed top-0 left-0 w-full z-[800]"> 
+  <div class="container mx-auto flex items-center justify-between"> 
+    <a href="./index.html"> 
+      <img class="max-w-[135px] w-full h-[47px]" src="./images/image 2.png" alt=""> 
+    </a> 
+    <input type="checkbox" id="menu-toggle" class="hidden peer"> 
+    <label for="menu-toggle" class="md:hidden text-white text-3xl cursor-pointer">☰</label> 
+    <ul class="md:flex md:gap-[50px] md:items-center max-md:absolute max-md:top-[70px] max-md:text-center max-md:w-full max-md:space-y-4 max-md:flex-col max-md:bg-[#BB2339] max-md:py-6 max-md:opacity-0 max-md:scale-95 max-md:translate-y-[-20px] max-md:pointer-events-none max-md:transition-all max-md:duration-500 peer-checked:max-md:opacity-100 peer-checked:max-md:scale-100 peer-checked:max-md:translate-y-0 peer-checked:max-md:pointer-events-auto" >
+       <li class="text-white">
+        <a href="./pages/menu.html">Menu</a>
+      </li> <li class="text-white">
+        <a href="./home-2.html">Home2</a>
+      </li> <li class="text-white">
+        <a href="./pages/news.html">News</a>
+      </li> 
+      <li class="text-white">
+        <a href="./pages/about.html">About Us</a>
+      </li> 
+      <li class="text-white">
+        <a href="./pages/contact us.html">Contact Us</a>
+      </li> 
+    </ul> 
+    <button class="hidden md:block text-white border border-white max-w-[131px] w-full h-[48px] bg-[#BB2339] rounded-[100px] cursor-pointer"> Log in </button> 
+  </div> 
+</header>.
 
     <main>
       <section>
