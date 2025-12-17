@@ -75,13 +75,13 @@
       </section>
 
       <section class="bg-[#F8F8F8]">
-        <h1 class="font-500 text-[48px] text-[#BB2339] ml-[220px] pt-[30px]">
+        <h1 class="font-500 text-[48px] max-[768px]:text-[40px] max-[600px]:text-[36px] text-center text-[#BB2339] pt-[30px]">
           Popular Dishes
         </h1>
         <div
-          class="container mx-auto justify-items-center justify-items-center grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-[30px]  py-[60px] bg-[#F8F8F8]"
+          class="container mx-auto justify-items-center justify-items-center grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-[30px] max-[600px]:px-4  py-[60px] bg-[#F8F8F8]"
         >
-          <div class="bg-[#FFFFFF] max-w-[400px] w-full rounded-lg  mx-auto pb-[30px] border-2 border-white shadow-xl border-2 border-white shadow-xl hover:scale-105 duration-300 cursor-pointer">
+          <div class="bg-[#FFFFFF] max-w-[400px] w-full rounded-2xl  mx-auto pb-[30px]  border-white shadow-xl border-2  hover:scale-105 duration-300 cursor-pointer">
             <img
               class="max-w-[270px] h-[183px] mx-auto"
               src="./images/card1.png"
@@ -97,7 +97,7 @@
             >
           </div>
 
-          <div class="bg-[#FFFFFF] max-w-[400px] w-full rounded-lg mx-auto border-2 border-white shadow-xl hover:scale-105 duration-300 cursor-pointer">
+          <div class="bg-[#FFFFFF] max-w-[400px] w-full rounded-2xl mx-auto pb-[30px] border-2 border-white shadow-xl hover:scale-105 duration-300 cursor-pointer">
             <img class="mx-auto" src="./images/pizza.png" alt="" />
             <h1 class="font-600 text-[16px] text-black  text-center">
               Barbecue Shish <br />
@@ -109,7 +109,7 @@
             >
           </div>
 
-          <div class="bg-[#FFFFFF] max-w-[400px] w-full rounded-lg mx-auto border-2 border-white shadow-xl hover:scale-105 duration-300 cursor-pointer">
+          <div class="bg-[#FFFFFF] max-w-[400px] w-full rounded-2xl mx-auto border-2 pb-[30px] border-white shadow-xl hover:scale-105 duration-300 cursor-pointer">
             <img class="mx-auto" src="./images/burger.png" alt="" />
             <h1 class="font-600 text-[16px] text-black pt-[10px] text-center">
               Barbecue Shish <br />
@@ -121,7 +121,7 @@
             >
           </div>
 
-          <div class="bg-[#FFFFFF] max-w-[400px] w-full rounded-lg border-2 border-white shadow-xl mx-auto hover:scale-105 duration-300 cursor-pointer">
+          <div class="bg-[#FFFFFF] max-w-[400px] w-full rounded-2xl pb-[30px] border-2 border-white shadow-xl mx-auto hover:scale-105 duration-300 cursor-pointer">
             <img class="mx-auto" src="./images/shashlik-fri.png" alt="" />
             <h1 class="font-600 text-[16px] text-black pt-[10px] text-center">
               Barbecue Shish <br />
@@ -138,12 +138,12 @@
 
 
       <section class="bg-[#F8F8F8]">
-        <h1 class="ml-[90px] pt-[60px] text-[48px] text-[#BB2339] font-500">
+        <h1 class="text-center pt-[60px] text-[48px] max-[768px]:text-[40px] max-[600px]:text-[30px] text-[#BB2339] font-500">
           Our Regular Menu Pack
         </h1>
-        <div class="container mx-auto   pb-[90px] pt-[30px] ">
+        <div class="container mx-auto  pb-[90px] pt-[30px] ">
           <div class=" ">
-            <ul class=" flex items-center text-[#242424]">
+            <ul class=" flex items-center justify-center max-[600px]:flex-col max-[600px]:space-y-4 text-[#242424]">
               <li
                 class="w-[82px] flex items-center justify-center h-[48px] border border-[#BB2339] transition-colors rounded-[100px] cursor-pointer bg-[#BB2339] px-4 text:lg transition duration-350 hover:bg-[#BB2339] hover:text-white rounded-[20px]"
               >
@@ -188,313 +188,231 @@
           </div>
 
 
-          <div
-            class="grid xl:grid-cols-4  lg:grid-cols-3 md:grid-cols-2 flex items-center justify-center1 mt-[60px] bg-[#FFFFFF]] pt-[20px] pb-[60px]  gap-[30px] ml-[60px]"
-          >
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px] border-2 border-[white] rounded-[15px] bg-[#FFFFFF] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto "
-                src="./images/shawarma.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
+          <div class="grid  grid-cols-1  sm:grid-cols-2  md:grid-cols-2  lg:grid-cols-3  xl:grid-cols-4  gap-6  mt-10  px-4 sm:px-6 lg:px-10  pb-16  bg-white">
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/shawarma.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
 
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px]   bg-[#FFFFFF] border border-gray-100 rounded-[15px] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto"
-                src="./images/shashlik-fri.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/shashlik-fri.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
 
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px]  bg-[#FFFFFF] pl-[30px] border border-gray-100 rounded-[15px] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto"
-                src="./images/lavash.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/lavash.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
 
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px]  bg-[#FFFFFF] pl-[30px] border border-gray-100 rounded-[15px] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto"
-                src="./images/hero-card.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/hero-card.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
 
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px]  bg-[#FFFFFF] border border-gray-100 rounded-[15px] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto"
-                src="./images/pizza.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/pizza.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
 
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px] bg-[#FFFFFF] border border-gray-100 rounded-[15px] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto"
-                src="./images/sendwich.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/sendwich.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
 
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px] bg-[#FFFFFF] border border-gray-100 rounded-[15px] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto"
-                src="./images/trindwich.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/trindwich.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
 
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px]  bg-[#FFFFFF] border border-gray-100 rounded-[15px] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto"
-                src="./images/burger.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex  items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/burger.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
 
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px]  bg-[#FFFFFF] border border-gray-100 rounded-[15px] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto"
-                src="./images/hotddog.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/hotddog.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
 
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px] bg-[#FFFFFF] border border-gray-100 rounded-[15px] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto"
-                src="./images/shashlik.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/shashlik.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
 
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px]  bg-[#FFFFFF] border border-gray-100 rounded-[15px] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto"
-                src="./images/shashlik-fri.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/shashlik-fri.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
 
-            <div class="max-w-[500px] w-full pt-[30px] pb-[30px]  bg-[#FFFFFF] border border-gray-100 rounded-[15px] hover:scale-105 duration-500 cursor-pointer">
-              <img
-                class="w-[270px] h-[183px] mx-auto"
-                src="./images/hero-card.png"
-                alt=""
-              />
-              <h1 class="text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="font-700 text-[24px] text-[#BB2339] flex items-center justify-center mt-4"
-                >$12.00</b
-              >
-            </div>
-          </div>
+  <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/hero-card.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+  </div>
+
+</div>
         </div>
       </section>
 
 
 
-      <section class="bg-[#F4F4F4] py-[60px] ">
-        <h4 class="text-center font-bold text-[28px]">Testimony</h4>
-        <h1 class="text-center fon-500 text-[50px]">Happy Customers</h1>
-        <div class="container py-[90px] mx-auto   grid lg:grid-cols-3 grid md:grid-cols-2 grid sm:grid-cols-1 gap-[30px]">
-          <div class="bg-[#FFFFFF] max-w-[500px] w-full h-[250px] rounded-lg hover:scale-105 duration-500 cursor-pointer">
-            <h2 class="font-bold text-[24px] pt-[30px] ml-[30px]">Maria</h2>
-            <p class="ml-[20px] pt-[20px] text-[gray]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing <br />
-              sit. auctor sit iaculis in arcu. Vulputate nulla lobortis <br />
-              mauris eget sit. Nulla scelerisque scelerisq...
-            </p>
-            <div class="flex items-center gap-[20px]">
-              <img
-                class="ml-[20px] pt-[20px]"
-                src="./images/calendar.png"
-                alt=""
-              />
-              <h4 class="pt-[20px] text-[gray]">06/02/2022</h4>
+     <section class="bg-[#F4F4F4] py-16">
+  <h4 class="text-center font-bold text-2xl">Testimony</h4>
+  <h1 class="text-center font-medium text-4xl max-[600px]:text-3xl mt-2">
+    Happy Customers
+  </h1>
 
-              <div class="flex items-center gap-[20px]">
-                <img
-                  class="ml-[30px] pt-[20px]"
-                  src="./images/soat.png"
-                  alt=""
-                />
-                <h4 class="pt-[20px] text-[gray]">11:15</h4>
+  <div
+    class="container mx-auto px-4 mt-14
+      grid grid-cols-1
+      md:grid-cols-2
+      lg:grid-cols-3
+      gap-6"
+  >
 
-                <div class="flex items-center gap-[20px]">
-                  <img
-                    class="ml-[30px] pt-[20px]"
-                    src="./images/eye.png"
-                    alt=""
-                  />
-                  <h4 class="pt-[20px] text-[gray]">222</h4>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div
+      class="bg-white w-full min-h-[280px]
+        rounded-xl p-6
+        hover:scale-105 transition duration-300
+        cursor-pointer"
+    >
+      <h2 class="font-bold text-xl">Maria</h2>
 
-          <div class="bg-[#FFFFFF] max-w-[500px] w-full h-[250px] rounded-lg hover:scale-105 duration-500 cursor-pointer">
-            <h2 class="font-bold text-[24px] pt-[30px] ml-[30px]">Maria</h2>
-            <p class="ml-[20px] pt-[20px] text-[gray]">
-              Я всегда был самым худым и щуплым ребенком <br />
-              среди своих сверстников. Я всегда мечтал стать <br />
-              как мой кумир и иметь интерес...
-            </p>
-            <div class="flex items-center gap-[10px]">
-              <img
-                class="ml-[20px] pt-[20px]"
-                src="./images/calendar.png"
-                alt=""
-              />
-              <h4 class="pt-[20px] text-[gray]">06/02/2022</h4>
+      <p class="mt-4 text-gray-500 text-sm sm:text-base leading-relaxed">
+        Lorem ipsum dolor sit amet, consectetur adipiscing sit.
+        auctor sit iaculis in arcu. Vulputate nulla lobortis
+        mauris eget sit. Nulla scelerisque scelerisq...
+      </p>
 
-              <div class="flex items-center gap-[10px]">
-                <img
-                  class="ml-[30px] pt-[20px]"
-                  src="./images/soat.png"
-                  alt=""
-                />
-                <h4 class="pt-[20px] text-[gray]">11:15</h4>
-
-                <div class="flex items-center gap-[10px]">
-                  <img
-                    class="ml-[30px] pt-[20px]"
-                    src="./images/eye.png"
-                    alt=""
-                  />
-                  <h4 class="pt-[20px] text-[gray]">222</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="bg-[#FFFFFF] max-w-[500px] w-full h-[250px] rounded-lg hover:scale-105 duration-500 cursor-pointer">
-            <h2 class="font-bold text-[24px] pt-[30px] ml-[30px]">Maria</h2>
-            <p class="ml-[20px] pt-[20px] text-[gray]">
-              Я всегда был самым худым и щуплым ребенком <br />
-              среди своих сверстников. Я всегда мечтал стать <br />
-              как мой кумир и иметь интерес...
-            </p>
-            <div class="flex items-center gap-[10px]">
-              <img
-                class="ml-[20px] pt-[20px]"
-                src="./images/calendar.png"
-                alt=""
-              />
-              <h4 class="pt-[20px] text-[gray]">06/02/2022</h4>
-
-              <div class="flex items-center gap-[10px]">
-                <img
-                  class="ml-[20px] pt-[20px]"
-                  src="./images/soat.png"
-                  alt=""
-                />
-                <h4 class="pt-[20px] text-[gray]">11:15</h4>
-
-                <div class="flex items-center gap-[10px]">
-                  <img
-                    class="ml-[30px] pt-[20px]"
-                    src="./images/eye.png"
-                    alt=""
-                  />
-                  <h4 class="pt-[20px] text-[gray]">222</h4>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="flex flex-wrap items-center gap-6 mt-6 text-gray-500 text-sm">
+        <div class="flex items-center gap-2">
+          <img src="./images/calendar.png" alt="">
+          <span>06/02/2022</span>
         </div>
-      </section>
+
+        <div class="flex items-center gap-2">
+          <img src="./images/soat.png" alt="">
+          <span>11:15</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <img src="./images/eye.png" alt="">
+          <span>222</span>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="bg-white w-full min-h-[280px]
+        rounded-xl p-6
+        hover:scale-105 transition duration-300
+        cursor-pointer"
+    >
+      <h2 class="font-bold text-xl">Maria</h2>
+
+      <p class="mt-4 text-gray-500 text-sm sm:text-base leading-relaxed">
+        Я всегда был самым худым и щуплым ребенком среди своих
+        сверстников. Я всегда мечтал стать как мой кумир и
+        иметь интерес...
+      </p>
+
+      <div class="flex flex-wrap items-center gap-6 mt-6 text-gray-500 text-sm">
+        <div class="flex items-center gap-2">
+          <img src="./images/calendar.png" alt="">
+          <span>06/02/2022</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <img src="./images/soat.png" alt="">
+          <span>11:15</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <img src="./images/eye.png" alt="">
+          <span>222</span>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="bg-white w-full min-h-[280px]
+        rounded-xl p-6
+        hover:scale-105 transition duration-300
+        cursor-pointer"
+    >
+      <h2 class="font-bold text-xl">Maria</h2>
+
+      <p class="mt-4 text-gray-500 text-sm sm:text-base leading-relaxed">
+        Я всегда был самым худым и щуплым ребенком среди своих
+        сверстников. Я всегда мечтал стать как мой кумир и
+        иметь интерес...
+      </p>
+
+      <div class="flex flex-wrap items-center gap-6 mt-6 text-gray-500 text-sm">
+        <div class="flex items-center gap-2">
+          <img src="./images/calendar.png" alt="">
+          <span>06/02/2022</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <img src="./images/soat.png" alt="">
+          <span>11:15</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <img src="./images/eye.png" alt="">
+          <span>222</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+     </section>
+
 
 
 
       <section class="bg-[#FFFFFF]">
         <h1 class="text-center text-[26px] font-bold pt-[60px]">News</h1>
-        <h2 class="text-center font-bold text-[48px] text-[#BB2339]">
+        <h2 class="text-center font-bold text-[48px] max-[768px]:text-[40px] max-[600px]:text-[36px] text-[#BB2339]">
           Gerícht updates
         </h2>
-        <div class="container mx-auto py-[90px] grid lg:grid-cols-3 grid md:grid-cols-2 grid  flex items-center justify-center gap-[30px]">
+        <div class="container mx-auto py-[90px] grid lg:grid-cols-3 grid md:grid-cols-2 grid lex items-center justify-center gap-[30px] max-[600px]:px-4">
           <div class="border-2 border-white shadow-xl max-w-[510px] w-full rounded-xl hover:scale-105 duration-500 cursor-pointer">
             <img
               class="max-w-[510px] w-full  h-[352px] rounded-[15px]"
@@ -575,21 +493,21 @@
 
 
      <section>
-      <video class="w-full rounded-lg" autoplay loop muted controls>
+      <video class=" w-full max-[768px]:h-[700px] max-[600px]:h-[400px] max-[600px]:px-3 h-[900px] rounded-lg" autoplay loop muted controls>
         <source src="https://youtu.be/HS24PywYlxg?si=JPT4PaP8KqdiBjpj" type="video/mp4">
       </video>
      </section>
 
 
 
-      <section class="bg-[#FFFFFF] py-[90px]">
+        <section class="bg-[#FFFFFF] py-[90px]">
         <div
-          class="container flex items-center justify-between mx-auto bg-[#F4F4F4] grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 "
+          class="container flex flex items-center justify-between max-[768px]:flex-col  mx-auto bg-[#F4F4F4]"
         >
           <div class="ml-[90px]">
             <h1 class="text-[23px] font-bold">Instagram</h1>
-            <h1 class="text-[48px] font-bold pt-[20px]">Photo Gallery</h1>
-            <p class="text-[16px] font-400 text-[gray] pt-[20px]">
+            <h1 class="text-[48px] max-[600px]:text-[40px] font-bold pt-[20px]">Photo Gallery</h1>
+            <p class="text-[16px] font-400 text-[gray] pt-[20px] max-[600px]:pr-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
               Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
             </p>
@@ -599,7 +517,10 @@
               View More
             </button>
           </div>
-          <div class="max-w-[400px] relative group overflow-hidden gap-[15px] mx-auto ">
+
+          
+           <div class="flex items-center justify-center max-[768px]:flex-col gap-2 max-[600px]:mt-6">
+             <div class="max-w-[301px] w-full h-[447px] relative group overflow-hidden">
           <img src="./images/Mask Group.png" alt="" class="h-full">
 
           <div class="rounded-[16px] bg-[black]/50 relative-[50px] absolute duration-[1s] top-0 left-0 w-full h-full flex items-center justify-center-translate-x-[100%] group-hover:translate-x-0">
@@ -607,7 +528,7 @@
           </div>
         </div>
 
-        <div class="max-w-[400px] relative group overflow-hidden gap-[15px] mx-auto ">
+        <div class="max-w-[400px] w-full h-[447px] relative group overflow-hidden  mx-auto ">
           <img src="./images/Mask Group-3.png" alt="" class="h-full">
 
           <div class="rounded-[16px] bg-[black]/50 relative-[50px] absolute duration-[1s] top-0 left-0 w-full h-full flex items-center justify-center-translate-x-[100%] group-hover:translate-x-0">
@@ -615,7 +536,7 @@
           </div>
         </div>
 
-        <div class="max-w-[400px] relative group overflow-hidden gap-[15px] mx-auto ">
+        <div class="max-w-[400px] w-full h-[447px] relative group overflow-hidden  mx-auto ">
           <img src="./images/1.png" alt="" class="h-full">
 
           <div class="rounded-[16px] bg-[black]/50 relative-[50px] absolute duration-[1s] top-0 left-0 w-full h-full flex items-center justify-center-translate-x-[100%] group-hover:translate-x-0">
@@ -623,12 +544,14 @@
           </div>
         </div>
 
-        <div class="max-w-[400px] relative group overflow-hidden gap-[15px] mx-auto ">
+        <div class="max-w-[400px] w-full h-[447px] relative group overflow-hidden  mx-auto ">
           <img src="./images/Mask Group-2.png" alt="" class="h-full">
 
           <div class="rounded-[16px] bg-[black]/50 relative-[50px] absolute duration-[1s] top-0 left-0 w-full h-full flex items-center justify-center-translate-x-[100%] group-hover:translate-x-0">
-            <a href="https://www.instagram.com/reel/DLUEGN6B-cd/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img  src="./images/004-instagram.png" alt=""></a>
+            <a href="https://www.instagram.com/reel/DLUEGN6B-cd/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img  src="../images/004-instagram.png" alt=""></a>
           </div>
+          </div>
+           </div>
         </div>
       </section>
 
@@ -652,9 +575,9 @@
             </p>
           </div>
 
-          <div class="flex items-center justify-center  mt-[30px] gap-[30px]">
+          <div class="flex items-center justify-center max-[600px]:flex-col  mt-[30px] gap-[30px]">
             <label
-              class="text-[#AAAAAA] border border-[#F5EFDB80] transition-colors max-w-[635px] w-[100%] h-[52px] rounded-[100px] mt-[30px] flex items-center justify-center pl-[30px]"
+              class="text-[#AAAAAA] border border-[#F5EFDB80] max-[600px]:px-5 transition-colors max-w-[635px] w-full h-[52px] rounded-full mt-[30px] flex items-center justify-center pl-[30px]"
               for="email"
               >Email Adress</label
             >
@@ -668,49 +591,52 @@
       </section>
     </main>
 
-    <footer>
-      <div class="container  mx-auto mt-[300px] mb-[90px]">
-        <div class="flex items-center justify-center gap-20">
-          <ul>
-            <h1 class="text-[32px] text-white">Contact Us</h1>
-            <li class="text-white pt-[20px]" >
-              <a href="">9 W 53rd St, London, NY 10019, UK</a>
-            </li>
-            <li class="text-white">
-              <a href="">+1 212-344-1230
-</a>
-            </li>
-            <li class="text-white">
-              <a href="">+1 212-555-1230</a>
-            </li>
-          </ul>
+   <footer class="w-full">
+  <div class="container mx-auto mt-[300px] mb-[90px] px-4 max-[768px]:mt-[120px] max-[768px]:mb-[60px]">
+    <div class="flex items-center justify-center gap-20 max-[1024px]:gap-10 max-[768px]:flex-col">
 
-          <ul>
-            <img class="max-w-[336px] h-[117px]" src="./images/image 2.png" alt="">
-            <li class="text-white pt-[20px]">
-              <a href="">"The best way to find yourself is to lose yourself in the <br> service of others.”
+      <ul class="mt-30">
+        <h1 class="text-[32px] text-white">Contact Us</h1>
+        <li class="text-white pt-[20px]">
+          <a href="">9 W 53rd St, London, NY 10019, UK</a>
+        </li>
+        <li class="text-white">
+          <a href="">+1 212-344-1230</a>
+        </li>
+        <li class="text-white">
+          <a href="">+1 212-555-1230</a>
+        </li>
+      </ul>
 
-              </a>
-            </li>
-          </ul>
+      <ul>
+        <img class="max-w-[336px] w-full h-[117px] max-[600px]:max-w-[300px]" src="./images/image 2.png" alt="">
+        <li class="text-white pt-[20px]">
+          <a href="" class="ml-20">
+            "The best way to find yourself is to lose yourself in the <br>
+            service of others.”
+          </a>
+        </li>
+      </ul>
 
-          <ul >
-            <h1 class="text-white  text-[32px]">Working Hours</h1>
-            <li class="text-white pt-[20px]">
-              <a href="">Monday-Friday:</a>
-            </li>
-            <li class="text-white">
-              <a href="">08:00 am -12:00 am</a>
-            </li>
-            <li class="text-white">
-              <a href="">Saturday-Sunday:</a>
-            </li>
-            <li class="text-white">
-              <a href="">07:00am -11:00 pm</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+      <ul>
+        <h1 class="text-white text-[32px]">Working Hours</h1>
+        <li class="text-white pt-[20px]">
+          <a href="">Monday-Friday:</a>
+        </li>
+        <li class="text-white">
+          <a href="">08:00 am -12:00 am</a>
+        </li>
+        <li class="text-white">
+          <a href="">Saturday-Sunday:</a>
+        </li>
+        <li class="text-white">
+          <a href="">07:00am -11:00 pm</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</footer>
+
   </body>
 </html>
