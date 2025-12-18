@@ -6,51 +6,33 @@
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <header
-      class="px-[20px] bg-[#BB2339] py-[10px] fixed top-0 left-0 w-full z-[800]"
-    >
-      <div class="container mx-[auto] flex items-center justify-between">
-        <a href="../index.html"
-          ><img
-            class="max-w-[135px] w-[100%] h-[47px]"
-            src="../images/image 2-2.png"
-            alt=""
-        /></a>
+  <body class="overflow-x-hidden">
+   <header class="bg-[#BB2339] py-[20px] fixed top-0 left-0 w-full z-800">
+  <div class="container mx-auto flex items-center justify-between"> 
+    <a href="./index.html"> 
+      <img class="max-w-[135px] w-full h-[47px]" src="../images/image 2.png" alt=""> 
+    </a> 
+    <input type="checkbox" id="menu-toggle" class="hidden peer"> 
+    <label for="menu-toggle" class="md:hidden text-white text-3xl cursor-pointer">☰</label> 
+    <ul class="md:flex md:gap-[50px] md:items-center max-md:absolute max-md:top-[70px] max-md:text-center max-md:w-full max-md:space-y-4 max-md:flex-col max-md:bg-[#BB2339] max-md:py-6 max-md:opacity-0 max-md:scale-95 max-md:translate-y-[-20px] max-md:pointer-events-none max-md:transition-all max-md:duration-500 peer-checked:max-md:opacity-100 peer-checked:max-md:scale-100 peer-checked:max-md:translate-y-0 peer-checked:max-md:pointer-events-auto">
+       <li class="text-[white]"><a href="../pages/menu.html">Menu</a></li>
+       <li class="text-[white]"><a href="../home-2.html">Home2</a></li>
+       <li class="text-[white]"><a href="../pages/news.html">News</a></li>
+       <li class="text-[white]"><a href="../pages/about.html">About Us</a></li>
+       <li class="text-[white]"><a href="../pages/contact us.html">Contact Us</a></li>
+    </ul> 
+    <button class="hidden md:block text-white border border-white max-w-[131px] w-full h-[48px] bg-[#BB2339] rounded-[100px] cursor-pointer"> Log in </button> 
+  </div> 
+   </header>
+ 
+   <div class="h-[90px]"></div>
 
-        <ul class="gap-[50px] hidden md:flex">
-          <li class="text-[#ffff]">
-            <a href="./menu.html">Menu</a>
-          </li>
-
-          <li class="text-[#ffff]">
-            <a href="#">Home2</a>
-          </li>
-          <li class="text-[#ffff]">
-            <a href="../pages/news.html">News</a>
-          </li>
-          <li class="text-[#ffff]">
-            <a href="">About Us</a>
-          </li>
-          <li class="text-[#ffff]">
-            <a href="../pages/contact us.html">Contact Us</a>
-          </li>
-        </ul>
-
-        <button
-          class="hidden md:block text-[#ffff] border border-white transition-colors max-w-[131px] w-[100%] h-[48px] bg-[#BB2339] rounded-[100px] cursor-pointer"
-        >
-          Log in
-        </button>
-        </button>
-      </div>
-    </header>
 
     <main>
       <section class="py-[90px] flex items-center">
-        <div class="container mx-auto text-center ml-[90px] grid grid-cols-2">
-          <div class="bg-[#BB2339] max-w-[428px] h-[800px] rounded-[15px]">
-            <h1 class="pt-[30px] text-[white] font-bold text-[40px]">
+       <div class="container mx-auto justify-items-center grid   md:grid-cols-2 sm:grid-cols-2 gap-[30px] max-[600px]:px-4 py-[60px]">
+          <div class="bg-[#BB2339] max-w-[428px] w-full h-[850px] rounded-[15px]">
+            <h1 class="pt-[30px] text-[white] font-bold text-[45px] px-3">
               Our Regular Menu <br />
               Pack
             </h1>
@@ -104,152 +86,102 @@
             </ul>
           </div>
 
-
-          <div
-            class="grid md:grid-cols-2 grid sm:grid-cols-1  mt-[60px] flex justify-items-center pb-[60px] rounded-[15px] gap-[30px]"
-          >
-            <div
-              class="border-[2px] border-[white] shadow-xl rounded-lg hover:scale-105 duration-500 cursor-pointer max-w-[500px] w-full h-[430px]"
-            >
-              <img class="mx-auto" src="../images/shashlik4.png" alt="" />
-              <h1 class="pt-[20px] text-[20px] text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="flex items-center justify-center mt-4 text-[28px] text-[#BB2339]"
-                >$12.00</b
-              >
-            </div>
-
-            <div
-              class="border-[2px] border-[white] shadow-xl rounded-lg hover:scale-105 duration-500 cursor-pointer max-w-[500px] w-full h-[430px]"
-            >
-              <img class="mx-auto" src="../images/shashlik4.png" alt="" />
-              <h1 class="pt-[20px] text-[20px] text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="flex items-center justify-center mt-4 text-[28px] text-[#BB2339]"
-                >$12.00</b
-              >
-            </div>
-
-            <div
-              class="border-[2px] border-[white] max-w-[500px] w-full h-[430px] shadow-xl rounded-lg hover:scale-105 duration-500 cursor-pointer mt-[20px]"
-            >
-              <img class="mx-auto" src="../images/shashlik4.png" alt="" />
-              <h1 class="pt-[20px] text-[20px] text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="flex items-center justify-center mt-4 text-[28px] text-[#BB2339]"
-                >$12.00</b
-              >
-            </div>
-
-            <div
-              class="border-[2px] border-[white] shadow-xl rounded-lg hover:scale-105 duration-500 cursor-pointer max-w-[500px] w-full h-[430px] mt-[20px]"
-            >
-              <img class="mx-auto" src="../images/shashlik4.png" alt="" />
-              <h1 class="pt-[20px] text-[20px] text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="flex items-center justify-center mt-4 text-[28px] text-[#BB2339]"
-                >$12.00</b
-              >
-            </div>
-
-            <div
-              class="border-[2px] border-[white] shadow-xl rounded-lg hover:scale-105 duration-500 cursor-pointer max-w-[500px] w-full h-[430px] mt-[20px]"
-            >
-              <img class="mx-auto" src="../images/shashlik4.png" alt="" />
-              <h1 class="pt-[20px] text-[20px] text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="flex items-center justify-center mt-4 text-[28px] text-[#BB2339]">
-                $12.00</b
-              >
-            </div>
-
-            <div
-              class="border-[2px] border-[white] shadow-xl rounded-lg hover:scale-105 duration-500 cursor-pointer max-w-[500px] w-full h-[430px] mt-[20px]"
-            >
-              <img class="mx-auto" src="../images/shashlik4.png" alt="" />
-              <h1 class="pt-[20px] text-[20px] text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="flex items-center justify-center mt-4 text-[28px] text-[#BB2339]"
-                >$12.00</b
-              >
-            </div>
-
-            <div
-              class="border-[2px] border-[white] shadow-xl rounded-lg hover:scale-105 duration-500 cursor-pointer max-w-[500px] w-full h-[430px] mt-[20px]"
-            >
-              <img class="mx-auto" src="../images/shashlik4.png" alt="" />
-              <h1 class="pt-[20px] text-[20px] text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="flex items-center justify-center mt-4 text-[28px] text-[#BB2339]">
-                $12.00</b
-              >
-            </div>
-
-            <div
-              class="border-[2px] border-[white] shadow-xl rounded-lg hover:scale-105 duration-500 cursor-pointer max-w-[500px] w-full h-[430px] mt-[20px]"
-            >
-              <img class="mx-auto" src="../images/shashlik4.png" alt="" />
-              <h1 class="pt-[20px] text-[20px] text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="flex items-center justify-center mt-4 text-[28px] text-[#BB2339]"
-                >$12.00</b
-              >
-            </div>
-
-            <div
-              class="border-[2px] border-[white] shadow-xl rounded-lg hover:scale-105 duration-500 cursor-pointer max-w-[500px] w-full h-[430px] mt-[20px]"
-            >
-              <img class="mx-auto" src="../images/shashlik4.png" alt="" />
-              <h1 class="pt-[20px] text-[20px] text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="flex items-center justify-center mt-4 text-[28px] text-[#BB2339]"
-                >$12.00</b
-              >
-            </div>
-
-            <div
-              class="border-[2px] border-[white] shadow-xl rounded-lg hover:scale-105 duration-500 cursor-pointer max-w-[500px] w-full h-[430px] mt-[20px]"
-            >
-              <img class="mx-auto" src="../images/shashlik4.png" alt="" />
-              <h1 class="pt-[20px] text-[20px] text-center">
-                Barbecue Shish kebab Shashlik <br />
-                Skewer
-              </h1>
-              <b class="flex items-center justify-center mt-4 text-[28px] text-[#BB2339]"
-                >$12.00</b
-              >
-            </div>
+     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 px-4 sm:px-6 lg:px-10 pb-16 bg-white">
+          <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="../images/shashlik4.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
           </div>
 
+         <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="../images/shashlik4.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+          </div>
+
+             <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="../images/shashlik4.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+          </div>
+
+
+            <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="../images/shashlik4.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+          </div>
+
+            <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="../images/shashlik4.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+          </div>
+
+             <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="../images/shashlik4.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+          </div>
+
+
+            <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="../images/shashlik4.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+          </div>
+
+
+            <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="../images/shashlik4.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+          </div>
+
+             <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="../images/shashlik4.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+          </div>
+
+            <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
+    <img class="w-full max-w-[240px] h-auto mx-auto" src="../images/shashlik4.png" alt="">
+    <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
+      Barbecue Shish kebab Shashlik <br> Skewer
+    </h1>
+    <b class="text-xl sm:text-2xl text-[#BB2339] flex justify-center mt-4">$12.00</b>
+          </div>
+      </div>
         </div>
       </section>
+       
 
-      <section class="bg-[#FFFFFF] py-[90px]">
+           <section class="bg-[#FFFFFF] py-[90px]">
         <div
-          class="container flex flex items-center justify-between  mx-auto bg-[#F4F4F4]"
+          class="container flex flex items-center justify-between max-[768px]:flex-col  mx-auto bg-[#F4F4F4]"
         >
           <div class="ml-[90px]">
             <h1 class="text-[23px] font-bold">Instagram</h1>
-            <h1 class="text-[48px] font-bold pt-[20px]">Photo Gallery</h1>
-            <p class="text-[16px] font-400 text-[gray] pt-[20px]">
+            <h1 class="text-[48px] max-[600px]:text-[40px] font-bold pt-[20px]">Photo Gallery</h1>
+            <p class="text-[16px] font-400 text-[gray] pt-[20px] max-[600px]:pr-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
               Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
             </p>
@@ -261,8 +193,8 @@
           </div>
 
           
-           <div class="flex items-center justify-center gap-2">
-             <div class="max-w-[301px] w-full h-[447px] relative group overflow-hidden">
+           <div class="flex items-center justify-center max-[768px]:flex-col gap-2 max-[600px]:mt-6">
+             <div class="max-w-[301px] max-[600px]:max-w-[230px] max-[600px]:h-[350px] w-full h-[447px] relative group overflow-hidden">
           <img src="../images/Mask Group.png" alt="" class="h-full">
 
           <div class="rounded-[16px] bg-[black]/50 relative-[50px] absolute duration-[1s] top-0 left-0 w-full h-full flex items-center justify-center-translate-x-[100%] group-hover:translate-x-0">
@@ -270,7 +202,7 @@
           </div>
         </div>
 
-        <div class="max-w-[400px] w-full h-[447px] relative group overflow-hidden  mx-auto ">
+        <div class="max-w-[400px] max-[600px]:max-w-[230px] max-[600px]:h-[350px] w-full h-[447px] relative group overflow-hidden  mx-auto ">
           <img src="../images/Mask Group-3.png" alt="" class="h-full">
 
           <div class="rounded-[16px] bg-[black]/50 relative-[50px] absolute duration-[1s] top-0 left-0 w-full h-full flex items-center justify-center-translate-x-[100%] group-hover:translate-x-0">
@@ -278,26 +210,19 @@
           </div>
         </div>
 
-        <div class="max-w-[400px] w-full h-[447px] relative group overflow-hidden  mx-auto ">
+        <div class="max-w-[400px] max-[600px]:max-w-[230px] max-[600px]:h-[350px] w-full h-[447px] relative group overflow-hidden  mx-auto ">
           <img src="../images/1.png" alt="" class="h-full">
 
           <div class="rounded-[16px] bg-[black]/50 relative-[50px] absolute duration-[1s] top-0 left-0 w-full h-full flex items-center justify-center-translate-x-[100%] group-hover:translate-x-0">
             <a href="https://www.instagram.com/reel/DLUEGN6B-cd/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="./images/004-instagram.png" alt=""></a>
           </div>
         </div>
-
-        <div class="max-w-[400px] w-full h-[447px] relative group overflow-hidden  mx-auto ">
-          <img src="../images/Mask Group-2.png" alt="" class="h-full">
-
-          <div class="rounded-[16px] bg-[black]/50 relative-[50px] absolute duration-[1s] top-0 left-0 w-full h-full flex items-center justify-center-translate-x-[100%] group-hover:translate-x-0">
-            <a href="https://www.instagram.com/reel/DLUEGN6B-cd/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img  src="../images/004-instagram.png" alt=""></a>
-          </div>
-          </div>
            </div>
         </div>
-      </section>
+           </section>
 
-      <section class="bg-[#FFFFFF] py-[30px]">
+      
+      <section class="bg-[#FFFFFF] py-[60px] ">
         <div
           class="container mx-auto bg-[#BB2339] rounded-[20px] overflow-hidden py-[60px] mb-[-250px] border border-[1px]"
         >
@@ -308,16 +233,16 @@
             <h1
               class="text-center md:text-[48px] sm:text-[40px] text-[white] font-bold pt-[20px]"
             >
-              Subscribe to Our Newsletter
+              Subscribe to Our Newslette
             </h1>
             <p class="text-center text-[16px] text-[white] pt-[20px]">
               And never miss latest Updates!
             </p>
           </div>
 
-          <div class="flex items-center justify-center mt-[30px] gap-[30px]">
+          <div class="flex items-center justify-center max-[600px]:flex-col  mt-[30px] gap-[30px]">
             <label
-              class="text-[#AAAAAA] border border-[#F5EFDB80] transition-colors max-w-[635px] w-[100%] h-[52px] rounded-[100px] mt-[30px] flex items-center pl-[30px]"
+              class="text-[#AAAAAA] border border-[#F5EFDB80] max-[600px]:px-5 transition-colors max-w-[635px] w-full h-[52px] rounded-full mt-[30px] flex items-center justify-center pl-[30px]"
               for="email"
               >Email Adress</label
             >
@@ -334,7 +259,7 @@
 
     <footer class="bg-[#BB2339] ">
       <div class="container mx-auto  pt-[300px] pb-[120px]  ">
-        <div class=" flex justify-center items-center  gap-20  ">
+        <div class="flex flex-col md:flex-row justify-center items-center gap-20 text-center md:text-left">
           <ul class="">
             <h1 class="text-white text-[32px]">Contact Us</h1>
             <li class="text-white pt-[20px]">
@@ -378,6 +303,6 @@
         </div>
       </div>
     </footer>
-  </body>
+  </boy>
 </html>
  
