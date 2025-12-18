@@ -2,19 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width" />
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="bg-[#BB2339] overflow-x-hidden">
    
-<header class="" bg-[#BB2339] py-[10px] fixed top-0 left-0 w-full z-[800]">
+<header class=" bg-[#BB2339] py-[20px] fixed top-0 left-0 w-full z-800">
   <div class="container mx-auto flex items-center justify-between"> 
-    <a href="./index.html"> 
+    <a href=""> 
       <img class="max-w-[135px] w-full h-[47px]" src="./images/image 2.png" alt=""> 
     </a> 
     <input type="checkbox" id="menu-toggle" class="hidden peer"> 
-    <label for="menu-toggle" class="md:hidden text-white text-3xl cursor-pointer">☰</label> 
+    <label for="menu-toggle" class="md:hidden text-white text-3xl cursor-pointer px-3">☰</label> 
     <ul class="md:flex md:gap-[50px] md:items-center max-md:absolute max-md:top-[70px] max-md:text-center max-md:w-full max-md:space-y-4 max-md:flex-col max-md:bg-[#BB2339] max-md:py-6 max-md:opacity-0 max-md:scale-95 max-md:translate-y-[-20px] max-md:pointer-events-none max-md:transition-all max-md:duration-500 peer-checked:max-md:opacity-100 peer-checked:max-md:scale-100 peer-checked:max-md:translate-y-0 peer-checked:max-md:pointer-events-auto">
        <li class="text-white"><a href="./pages/menu.html">Menu</a></li>
        <li class="text-white"><a href="./home-2.html">Home2</a></li>
@@ -69,7 +69,7 @@
         <h1 class="font-500 text-[48px] max-[768px]:text-[40px] max-[600px]:text-[36px] text-center text-[#BB2339] pt-[30px]">
           Popular Dishes
         </h1>
-        <div class="container mx-auto justify-items-center grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-[30px] max-[600px]:px-4 py-[60px] bg-[#F8F8F8]">
+        <div class="container mx-auto grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-2 gap-[30px] max-[600px]:px-4 py-[60px] bg-[#F8F8F8]">
           <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
             <img
               class="w-full max-w-[240px] h-auto mx-auto"
@@ -131,7 +131,7 @@
           Our Regular Menu Pack
         </h1>
         <div class="container mx-auto  pb-[90px] pt-[30px] ">
-          <div class=" ">
+          <div>
             <ul class=" flex items-center justify-center max-[600px]:flex-col max-[600px]:space-y-4 text-[#242424]">
               <li
                 class="w-[82px] flex items-center justify-center h-[48px] border border-[#BB2339] transition-colors rounded-[100px] cursor-pointer bg-[#BB2339] px-4 text:lg transition duration-350 hover:bg-[#BB2339] hover:text-white rounded-[20px]"
@@ -175,8 +175,7 @@
               </li>
             </ul>
           </div>
-
- <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-10 px-4 sm:px-6 lg:px-10 pb-16 bg-white">
+<div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-10 px-4 sm:px-6 lg:px-10 pb-16">
   <div class="w-full max-w-md mx-auto p-6 bg-white border-2 border-white shadow-xl rounded-2xl hover:scale-105 transition duration-300 cursor-pointer">
     <img class="w-full max-w-[240px] h-auto mx-auto" src="./images/shawarma.png" alt="">
     <h1 class="text-center mt-4 text-sm sm:text-base font-medium">
